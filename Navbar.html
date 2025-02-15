@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+<body>
+ <header class="fixed z-100 w-full box-border ">
+  <a class="absolute left-1/2 w-35"> <span>
+    <img src="./white circle ggv circle.png">
+  </span> </a>  
+  <div id="pcheader" class="bg-white shadow flex-col" >
+    <div class="block item-center ">
+    <div class="relative sm:px-0 px-20 sm:w-full container p-0 left-[10px] sm:left-0 h-14 max-h-14 sm:h-20 sm:max-h-20">
+      <div class=" item-center w-50"> <img src="./ggu hindi  png.png"> </div>  
+      <div class=" item-center w-50"> <img src="./ggu english png.png"> </div>  
+    </div>
+  </div>
+    <div id="navigation" class="h-15 mb-40 w-full bg-[#3e54ff]">
+        <ul id="desktop-nav" class="hidden md:flex">
+          <li class="relative">
+            <a id="current" href="#" class="block px-6 py-4 text-sm font-semibold text-white hover:bg-[#c0c8ff] hover:text-[#214792]">
+              Home</a>
+          </li>
+      
+          <li class="relative">
+            <a href="#" class="block px-6 py-4 text-sm font-semibold text-white hover:bg-[#c0c8ff] hover:text-[#214792]">Academics </a>
+          </li>
+      
+          <li class="relative">
+            <a href="#" class="block px-6 py-4 text-sm font-semibold text-white hover:bg-[#c0c8ff] hover:text-[#214792]">Administration</a>
+          </li>
+      
+          <li class="relative">
+            <a href="#" class="block px-6 py-4 text-sm font-semibold text-white hover:bg-[#c0c8ff] hover:text-[#214792]">Amenities </a>
+            <ul class="absolute hidden left-0 hover:opacity-100">
+              <li class="relative">
+                <a href="#" class="block w-40 border-gray-800 px-4 py-2 font-sans text-xs text-gray-500 hover:bg-[#214792] hover:text-[#214792]">2 Columns</a>
+              </li>
+              <li class="relative">
+                <a href="#" class="block w-40 border-gray-800 px-4 py-2 font-sans tex[#214792]t-xs text-gray-500 hover:bg-[#214792] hover:text-[#214792]">3 Columns</a>
+              </li>
+              <li class="relative">
+                <a href="#" class="block w-40 border-gray-800 px-4 py-2 font-sans text-xs text-gray-500 hover:bg-[#214792] hover:text-[#214792]">4 Columns</a>
+              </li>
+              <li class="relative">
+                <a href="#" class="block w-40 px-4 py-2 font-sans text-xs text-gray-500 hover:bg-[#214792] hover:text-[#214792]">Single Project</a>
+              </li>
+            </ul>
+          </li>
+      
+          <li class="relative">
+            <a href="#" class="block w-40 px-6 py-4 text-sm font-semibold text-white hover:bg-[#c0c8ff] hover:text-[#214792]">Student Corner</a>
+            <!--
+          Dropdown menu, show/hide based on menu state.
+      
+          Entering: "transition ease-out duration-100"
+            From: "transform opacity-0 scale-95"
+            To: "transform opacity-100 scale-100"
+          Leaving: "transition ease-in duration-75"
+            From: "transform opacity-100 scale-100"
+            To: "transform opacity-0 scale-95"
+        -->
+            <ul class="absolute rounded-b-lg left-0 w-40 bg-[#dee2e6] hover:opacity-100 ">
+              <li class="relative">
+                <a href="#" class="block border-gray-800 px-4 py-2 font-sans text-xs text-gray-000 hover:bg-[#c0c8ff] hover:text-[#214792]">Shop</a>
+              </li>
+              <li class="relative">
+                <a href="#" class="block px-4 py-2 font-sans text-xs text-gray-500 hover:bg-[#c0c8ff] hover:text-[#214792]">Product Page</a>
+              </li>
+            </ul>
+          </li>
+      
+          <li class="relative">
+            <a href="#" class="block px-6 py-4 text-sm font-semibold text-white hover:bg-[#c0c8ff] hover:text-[#214792]">IQAC</a>
+          </li>
+          <li class="relative">
+            <a href="#" class="block px-6 py-4 text-sm font-semibold text-white hover:bg-[#c0c8ff] hover:text-[#214792]">NIRF</a>
+          </li>
+          <li class="relative">
+            <a href="#" class="block px-6 py-4 text-sm font-semibold text-white hover:bg-[#c0c8ff] hover:text-[#214792]">R&D</a>
+          </li>
+          <li class="relative">
+            <a href="#" class="block px-6 py-4 text-sm font-semibold text-white hover:bg-[#c0c8ff] hover:text-[#214792]">Requirement </a>
+          </li>
+        </ul>
+
+        <!-- Mobile view start -->
+        <ul id="mobile-nav" class="flex flex-col md:hidden bg-[#dee2e6]">
+          <li>
+            <a id="current" href="#" class="block px-6 py-4 text-sm font-semibold text-[#214792] underline hover:bg-[#214792] hover:text-white">Home</a>
+          </li>
+      
+          <li class="relative">
+            <a href="#" class="block px-6 py-4 text-sm font-semibold text-[#214792] hover:bg-white hover:text-[#214792] hover:underline ">Academics </a>
+          </li>
+      
+          <li class="relative">
+            <a href="#" class="block px-6 py-4 text-sm font-semibold text-[#214792] underline hover:bg-[#c0c8ff]  hover:text-[#214792] hover:underline">Administration</a>
+          </li>
+      
+          <li class="relative">
+            <a href="#" class="block px-6 py-4 text-sm font-semibold text-[#214792] underline hover:bg-[#c0c8ff]  hover:text-[#214792]">Amenities </a>
+            <ul class="absolute left-0 hidden hover:opacity-100">
+              <li class="">
+                <a href="#" class="block w-40 border-gray-800 px-4 py-2 font-sans text-xs text-gray-500 hover:bg-[#c0c8ff]  hover:text-[#214792]">2 Columns</a>
+              </li>
+              <li class="">
+                <a href="#" class="block w-40 border-gray-800 px-4 py-2 font-sans text-xs text-gray-500 hover:bg-[#c0c8ff]  hover:text-[#214792]">3 Columns</a>
+              </li>
+              <li class="">
+                <a href="#" class="block w-40 border-gray-800 px-4 py-2 font-sans text-xs text-gray-500 hover:bg-[#c0c8ff]  hover:text-[#214792]">4 Columns</a>
+              </li>
+              <li class="">
+                <a href="#" class="block w-40 px-4 py-2 font-sans text-xs text-gray-500 hover:bg-[#c0c8ff] hover:text-[#214792]">Single Project</a>
+              </li>
+            </ul>
+          </li>
+      
+          <li class="relative">
+            <a href="#" class="block px-6 py-4 text-sm font-semibold text-[#214792] underline hover:bg-[#c0c8ff] hover:text-[#214792]">Student Corner</a>
+            <!--
+          Dropdown menu, show/hide based on menu state.
+      
+          Entering: "transition ease-out duration-100"
+            From: "transform opacity-0 scale-95"
+            To: "transform opacity-100 scale-100"
+          Leaving: "transition ease-in duration-75"
+            From: "transform opacity-100 scale-100"
+            To: "transform opacity-0 scale-95"
+        -->
+            <ul class="ml-5 flex flex-col hover:opacity-100">
+              <li class="relative">
+                <a href="#" class="block px-4 py-2 font-sans text-xs text-[#214792] underline hover:bg-[#c0c8ff] hover:text-[#214792]">Shop</a>
+              </li>
+              <li class="relative">
+                <a href="#" class="block px-4 py-2 font-sans text-xs text-[#214792] underline hover:bg-[#c0c8ff] hover:text-[#214792]">Product Page</a>
+              </li>
+            </ul>
+          </li>
+      
+          <li class="relative">
+            <a href="#" class="block px-6 py-4 text-sm font-semibold text-[#214792] underline
+             hover:bg-[#c0c8ff] hover:text-[#214792]">IQAC</a>
+          </li>
+          <li class="relative">
+            <a href="#" class="block px-6 py-4 text-sm font-semibold text-[#214792] underline
+             hover:bg-[#c0c8ff]  hover:text-[#214792]">NIRF</a>
+          </li>
+          <li class="relative">
+            <a href="#" class="block px-6 py-4 text-sm font-semibold  text-[#214792] underline hover:bg-[#c0c8ff]  hover:text-[#214792]">R&D</a>
+          </li>
+          <li class="relative">
+            <a href="#" class="block px-6 py-4 text-sm font-semibold text-[#214792] underline
+             hover:bg-[#c0c8ff] hover:text-[#214792]">Requirement </a>
+          </li>
+        </ul>
+      </div>
+      </div>
+ </header>
+</body>
+</html>
